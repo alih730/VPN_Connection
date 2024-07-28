@@ -1,27 +1,25 @@
 # VPN_Connection
-<h1>JWipe - Disk Sanitization</h1>
+<h1>Create a VPN Connection</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+In this project I was asked to create a site to site VPN solution form one VPC in a different account.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>AWS Console</b> 
 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://imgur.com/67MymqY" height="80%" width="80%" alt="Installation Steps"/>
+I ssh to my OpenSwan server and configured it and deployed it: <br/>
+<img src="https://i.imgur.com/67MymqY.png" height="150%" width="150%" alt="Installation Steps"/>
+
 <br />
 <br />
 Select the disk:  <br/>
